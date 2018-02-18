@@ -5,7 +5,7 @@ public class getStreamLine{
 	public staic void main(String[] args){
 		
 		
-		InputStreamReader objInput=inputStreamReader(System.in);	
+		InputStreamReader objInput=new inputStreamReader(System.in);	
 
 		BufferedReader Bufferedobj = new BufferedReader(objInput);
 		
