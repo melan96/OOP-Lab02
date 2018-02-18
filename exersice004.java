@@ -2,19 +2,17 @@ import java.io.*;
 
 public class getStreamLine{
 
-	public staic void main(String[] args){
+	public static void main(String[] args)throws IOException{
 		
-		
-		InputStreamReader objInput=new inputStreamReader(System.in);	
+		InputStreamReader objInput=new InputStreamReader(System.in);	
 
 		BufferedReader Bufferedobj = new BufferedReader(objInput);
 		
-		//fetch String		
-		String name;
-		name =Bufferedobj.readLine();
-		
-		//fetch Integer
-		int b = Integer.parseInt(r.readLine);
-		
+		int length;
+	
+		System.out.print("Enter Length :");
+		length = Integer.parseInt (Bufferedobj.readLine());
+
+		System.out.println("Length is :" + length);	
 	}
 }
